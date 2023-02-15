@@ -6,8 +6,8 @@ const cors = require('cors')
 const app = express();
 
 const configuration = new Configuration({
-    organization: "org-SIU2866Ri2cIy7ineq84i5Ex",
-    apiKey: "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",
+    organization: "************************",
+    apiKey: "*****************************",
 });
 const openai = new OpenAIApi(configuration);
 //const response = await openai.listEngines();
@@ -47,7 +47,7 @@ app.listen(port, ()=> {
     console.log(`Server running on port http://localhost:${port}`);
 });
 
-const uri = 'mongodb+srv://akshat:akshat@cluster0.pajjo26.mongodb.net/?retryWrites=true&w=majority'
+const uri = 'mongodb+srv://***********************************'
 
 async function connect(){
     try{
